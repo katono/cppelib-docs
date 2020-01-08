@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['waitguard',['WaitGuard',['../classOSWrapper_1_1ThreadPool_1_1WaitGuard.html',1,'OSWrapper::ThreadPool']]],
   ['windowseventflagfactory',['WindowsEventFlagFactory',['../classWindowsOSWrapper_1_1WindowsEventFlagFactory.html',1,'WindowsOSWrapper']]],
   ['windowsfixedmemorypoolfactory',['WindowsFixedMemoryPoolFactory',['../classWindowsOSWrapper_1_1WindowsFixedMemoryPoolFactory.html',1,'WindowsOSWrapper']]],
   ['windowsmutexfactory',['WindowsMutexFactory',['../classWindowsOSWrapper_1_1WindowsMutexFactory.html',1,'WindowsOSWrapper']]],

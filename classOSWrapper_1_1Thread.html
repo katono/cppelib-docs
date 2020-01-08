@@ -206,7 +206,7 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memdesc:aa3a19f54f430762ac9122d7f9f00ad4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the minimum value of RTOS's thread priority.  <a href="#aa3a19f54f430762ac9122d7f9f00ad4d">More...</a><br /></td></tr>
 <tr class="separator:aa3a19f54f430762ac9122d7f9f00ad4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3fa22e91452e2aeb5d2e68c775668d5"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSWrapper_1_1Thread.html#ac3fa22e91452e2aeb5d2e68c775668d5">getNormalPriority</a> ()</td></tr>
-<tr class="memdesc:ac3fa22e91452e2aeb5d2e68c775668d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the priority between the minimum and maximum value.  <a href="#ac3fa22e91452e2aeb5d2e68c775668d5">More...</a><br /></td></tr>
+<tr class="memdesc:ac3fa22e91452e2aeb5d2e68c775668d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the middle priority between the minimum and maximum value.  <a href="#ac3fa22e91452e2aeb5d2e68c775668d5">More...</a><br /></td></tr>
 <tr class="separator:ac3fa22e91452e2aeb5d2e68c775668d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a518e3c7f6a1285021453c5d7d0fc25f3"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSWrapper_1_1Thread.html#a518e3c7f6a1285021453c5d7d0fc25f3">getHighestPriority</a> ()</td></tr>
 <tr class="memdesc:a518e3c7f6a1285021453c5d7d0fc25f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the highest thread priority of RTOS.  <a href="#a518e3c7f6a1285021453c5d7d0fc25f3">More...</a><br /></td></tr>
@@ -214,6 +214,9 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a66aafd917e029f05df2f154ce9a2948b"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSWrapper_1_1Thread.html#a66aafd917e029f05df2f154ce9a2948b">getLowestPriority</a> ()</td></tr>
 <tr class="memdesc:a66aafd917e029f05df2f154ce9a2948b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the lowest thread priority of RTOS.  <a href="#a66aafd917e029f05df2f154ce9a2948b">More...</a><br /></td></tr>
 <tr class="separator:a66aafd917e029f05df2f154ce9a2948b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b768b8c3fb94f58320bf53bde9780a2"><td class="memItemLeft" align="right" valign="top">static int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classOSWrapper_1_1Thread.html#a1b768b8c3fb94f58320bf53bde9780a2">getPriorityHigherThan</a> (int basePriority, int d)</td></tr>
+<tr class="memdesc:a1b768b8c3fb94f58320bf53bde9780a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the thread priority of RTOS higher than <code>basePriority</code> by <code>d</code>.  <a href="#a1b768b8c3fb94f58320bf53bde9780a2">More...</a><br /></td></tr>
+<tr class="separator:a1b768b8c3fb94f58320bf53bde9780a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -571,7 +574,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Get the maximum value of RTOS's thread priority. </p>
 <dl class="section return"><dt>Returns</dt><dd>The maximum value of thread priority</dd></dl>
-<dl class="section note"><dt>Note</dt><dd><a class="el" href="classOSWrapper_1_1Thread.html#aa3a19f54f430762ac9122d7f9f00ad4d" title="Get the minimum value of RTOS&#39;s thread priority. ">Thread::getMinPriority()</a> &lt; <a class="el" href="classOSWrapper_1_1Thread.html#ac3fa22e91452e2aeb5d2e68c775668d5" title="Get the priority between the minimum and maximum value. ">Thread::getNormalPriority()</a> &lt; <a class="el" href="classOSWrapper_1_1Thread.html#a12c77b443fe39f8d6f77a9f5c183bd3c" title="Get the maximum value of RTOS&#39;s thread priority. ">Thread::getMaxPriority()</a> </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="classOSWrapper_1_1Thread.html#aa3a19f54f430762ac9122d7f9f00ad4d" title="Get the minimum value of RTOS&#39;s thread priority. ">Thread::getMinPriority()</a> &lt; <a class="el" href="classOSWrapper_1_1Thread.html#ac3fa22e91452e2aeb5d2e68c775668d5" title="Get the middle priority between the minimum and maximum value. ">Thread::getNormalPriority()</a> &lt; <a class="el" href="classOSWrapper_1_1Thread.html#a12c77b443fe39f8d6f77a9f5c183bd3c" title="Get the maximum value of RTOS&#39;s thread priority. ">Thread::getMaxPriority()</a> </dd></dl>
 
 </div>
 </div>
@@ -598,7 +601,7 @@ Protected Member Functions</h2></td></tr>
 
 <p>Get the minimum value of RTOS's thread priority. </p>
 <dl class="section return"><dt>Returns</dt><dd>The minimum value of thread priority</dd></dl>
-<dl class="section note"><dt>Note</dt><dd><a class="el" href="classOSWrapper_1_1Thread.html#aa3a19f54f430762ac9122d7f9f00ad4d" title="Get the minimum value of RTOS&#39;s thread priority. ">Thread::getMinPriority()</a> &lt; <a class="el" href="classOSWrapper_1_1Thread.html#ac3fa22e91452e2aeb5d2e68c775668d5" title="Get the priority between the minimum and maximum value. ">Thread::getNormalPriority()</a> &lt; <a class="el" href="classOSWrapper_1_1Thread.html#a12c77b443fe39f8d6f77a9f5c183bd3c" title="Get the maximum value of RTOS&#39;s thread priority. ">Thread::getMaxPriority()</a> </dd></dl>
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="classOSWrapper_1_1Thread.html#aa3a19f54f430762ac9122d7f9f00ad4d" title="Get the minimum value of RTOS&#39;s thread priority. ">Thread::getMinPriority()</a> &lt; <a class="el" href="classOSWrapper_1_1Thread.html#ac3fa22e91452e2aeb5d2e68c775668d5" title="Get the middle priority between the minimum and maximum value. ">Thread::getNormalPriority()</a> &lt; <a class="el" href="classOSWrapper_1_1Thread.html#a12c77b443fe39f8d6f77a9f5c183bd3c" title="Get the maximum value of RTOS&#39;s thread priority. ">Thread::getMaxPriority()</a> </dd></dl>
 
 </div>
 </div>
@@ -679,9 +682,9 @@ Protected Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
-<p>Get the priority between the minimum and maximum value. </p>
-<dl class="section return"><dt>Returns</dt><dd>The priority between the minimum and maximum value</dd></dl>
-<dl class="section note"><dt>Note</dt><dd><a class="el" href="classOSWrapper_1_1Thread.html#aa3a19f54f430762ac9122d7f9f00ad4d" title="Get the minimum value of RTOS&#39;s thread priority. ">Thread::getMinPriority()</a> &lt; <a class="el" href="classOSWrapper_1_1Thread.html#ac3fa22e91452e2aeb5d2e68c775668d5" title="Get the priority between the minimum and maximum value. ">Thread::getNormalPriority()</a> &lt; <a class="el" href="classOSWrapper_1_1Thread.html#a12c77b443fe39f8d6f77a9f5c183bd3c" title="Get the maximum value of RTOS&#39;s thread priority. ">Thread::getMaxPriority()</a> </dd></dl>
+<p>Get the middle priority between the minimum and maximum value. </p>
+<dl class="section return"><dt>Returns</dt><dd>The middle priority between the minimum and maximum value</dd></dl>
+<dl class="section note"><dt>Note</dt><dd><a class="el" href="classOSWrapper_1_1Thread.html#aa3a19f54f430762ac9122d7f9f00ad4d" title="Get the minimum value of RTOS&#39;s thread priority. ">Thread::getMinPriority()</a> &lt; <a class="el" href="classOSWrapper_1_1Thread.html#ac3fa22e91452e2aeb5d2e68c775668d5" title="Get the middle priority between the minimum and maximum value. ">Thread::getNormalPriority()</a> &lt; <a class="el" href="classOSWrapper_1_1Thread.html#a12c77b443fe39f8d6f77a9f5c183bd3c" title="Get the maximum value of RTOS&#39;s thread priority. ">Thread::getMaxPriority()</a> </dd></dl>
 
 </div>
 </div>
@@ -710,6 +713,55 @@ Protected Member Functions</h2></td></tr>
 <dl class="section return"><dt>Returns</dt><dd><a class="el" href="classOSWrapper_1_1Thread.html" title="Abstract class that has functions of common RTOS&#39;s thread. ">Thread</a> priority </dd></dl>
 
 <p>Implemented in <a class="el" href="classStdCppOSWrapper_1_1StdCppThreadFactory_1_1StdCppThread.html#a81a225474ab184f566bf7b898ea4b89c">StdCppOSWrapper::StdCppThreadFactory::StdCppThread</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a1b768b8c3fb94f58320bf53bde9780a2"></a>
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">int OSWrapper::Thread::getPriorityHigherThan </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>basePriority</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>d</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the thread priority of RTOS higher than <code>basePriority</code> by <code>d</code>. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">basePriority</td><td>Base priority </td></tr>
+    <tr><td class="paramname">d</td><td>Difference </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>If <code>d</code> is positive number, returns the priority higher than <code>basePriority</code> by <code>d</code>. </dd>
+<dd>
+If <code>d</code> is negative number, returns the priority lower than <code>basePriority</code> by <code>d</code>. </dd>
+<dd>
+If <code>d</code> is zero, returns <code>basePriority</code>.</dd></dl>
+<dl class="section note"><dt>Note</dt><dd>The range of return value is between <a class="el" href="classOSWrapper_1_1Thread.html#a66aafd917e029f05df2f154ce9a2948b" title="Get the lowest thread priority of RTOS. ">getLowestPriority()</a> and <a class="el" href="classOSWrapper_1_1Thread.html#a518e3c7f6a1285021453c5d7d0fc25f3" title="Get the highest thread priority of RTOS. ">getHighestPriority()</a>. </dd></dl>
 
 </div>
 </div>

@@ -66,6 +66,7 @@ var hierarchy =
     [ "Container::PreallocatedDeque< T >", "classContainer_1_1PreallocatedDeque.html", null ],
     [ "Container::PreallocatedDeque_iterator< T, Ref, Ptr, DeqPtr >", "classContainer_1_1PreallocatedDeque__iterator.html", null ],
     [ "Container::PreallocatedVector< T >", "classContainer_1_1PreallocatedVector.html", null ],
+    [ "Container::PreallocatedVector< Thread * >", "classContainer_1_1PreallocatedVector.html", null ],
     [ "OSWrapper::Runnable", "classOSWrapper_1_1Runnable.html", null ],
     [ "OSWrapper::Thread", "classOSWrapper_1_1Thread.html", [
       [ "StdCppOSWrapper::StdCppThreadFactory::StdCppThread", "classStdCppOSWrapper_1_1StdCppThreadFactory_1_1StdCppThread.html", null ]
@@ -76,10 +77,11 @@ var hierarchy =
         [ "WindowsOSWrapper::WindowsThreadFactory", "classWindowsOSWrapper_1_1WindowsThreadFactory.html", null ]
       ] ]
     ] ],
+    [ "OSWrapper::ThreadPool", "classOSWrapper_1_1ThreadPool.html", null ],
     [ "OSWrapper::Timeout", "classOSWrapper_1_1Timeout.html", null ],
+    [ "OSWrapper::Thread::UncaughtExceptionHandler", "classOSWrapper_1_1Thread_1_1UncaughtExceptionHandler.html", null ],
     [ "OSWrapper::OneShotTimer::UncaughtExceptionHandler", "classOSWrapper_1_1OneShotTimer_1_1UncaughtExceptionHandler.html", null ],
     [ "OSWrapper::PeriodicTimer::UncaughtExceptionHandler", "classOSWrapper_1_1PeriodicTimer_1_1UncaughtExceptionHandler.html", null ],
-    [ "OSWrapper::Thread::UncaughtExceptionHandler", "classOSWrapper_1_1Thread_1_1UncaughtExceptionHandler.html", null ],
     [ "OSWrapper::VariableMemoryPool", "classOSWrapper_1_1VariableMemoryPool.html", [
       [ "StdCppOSWrapper::StdCppVariableMemoryPool", "classStdCppOSWrapper_1_1StdCppVariableMemoryPool.html", null ]
     ] ],
@@ -88,5 +90,6 @@ var hierarchy =
         [ "PosixOSWrapper::PosixVariableMemoryPoolFactory", "classPosixOSWrapper_1_1PosixVariableMemoryPoolFactory.html", null ],
         [ "WindowsOSWrapper::WindowsVariableMemoryPoolFactory", "classWindowsOSWrapper_1_1WindowsVariableMemoryPoolFactory.html", null ]
       ] ]
-    ] ]
+    ] ],
+    [ "OSWrapper::ThreadPool::WaitGuard", "classOSWrapper_1_1ThreadPool_1_1WaitGuard.html", null ]
 ];

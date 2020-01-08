@@ -11,5 +11,6 @@ var searchData=
   ['posixvariablememorypoolfactory',['PosixVariableMemoryPoolFactory',['../classPosixOSWrapper_1_1PosixVariableMemoryPoolFactory.html',1,'PosixOSWrapper']]],
   ['preallocateddeque',['PreallocatedDeque',['../classContainer_1_1PreallocatedDeque.html',1,'Container']]],
   ['preallocateddeque_5fiterator',['PreallocatedDeque_iterator',['../classContainer_1_1PreallocatedDeque__iterator.html',1,'Container']]],
-  ['preallocatedvector',['PreallocatedVector',['../classContainer_1_1PreallocatedVector.html',1,'Container']]]
+  ['preallocatedvector',['PreallocatedVector',['../classContainer_1_1PreallocatedVector.html',1,'Container']]],
+  ['preallocatedvector_3c_20thread_20_2a_20_3e',['PreallocatedVector&lt; Thread * &gt;',['../classContainer_1_1PreallocatedVector.html',1,'Container']]]
 ];

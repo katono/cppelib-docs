@@ -4,7 +4,7 @@
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.11"/>
-<title>CppELib: CppELib</title>
+<title>CppELib: mechanism/OSWrapper/ThreadPool.cpp File Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -45,10 +45,10 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
 </script>
   <div id="navrow1" class="tabs">
     <ul class="tablist">
-      <li class="current"><a href="index.html"><span>Main&#160;Page</span></a></li>
+      <li><a href="index.html"><span>Main&#160;Page</span></a></li>
       <li><a href="namespaces.html"><span>Namespaces</span></a></li>
       <li><a href="annotated.html"><span>Classes</span></a></li>
-      <li><a href="files.html"><span>Files</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
       <li>
         <div id="MSearchBox" class="MSearchBoxInactive">
         <span class="left">
@@ -67,6 +67,12 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
       </li>
     </ul>
   </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>File&#160;List</span></a></li>
+      <li><a href="globals.html"><span>File&#160;Members</span></a></li>
+    </ul>
+  </div>
 </div><!-- top -->
 <div id="side-nav" class="ui-resizable side-nav-resizable">
   <div id="nav-tree">
@@ -79,7 +85,7 @@ var searchBox = new SearchBox("searchBox", "search",false,'Search');
   </div>
 </div>
 <script type="text/javascript">
-$(document).ready(function(){initNavTree('index.html','');});
+$(document).ready(function(){initNavTree('ThreadPool_8cpp.html','');});
 </script>
 <div id="doc-content">
 <!-- window showing the filter options -->
@@ -97,45 +103,29 @@ $(document).ready(function(){initNavTree('index.html','');});
 </div>
 
 <div class="header">
+  <div class="summary">
+<a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<div class="title">CppELib </div>  </div>
+<div class="title">ThreadPool.cpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p>CppELib is a portable C++ library for embedded software development. This works on the freestanding environment that provides few standard C++ libraries.</p>
-<p><a href="https://travis-ci.org/katono/cppelib"></a> <a href="https://ci.appveyor.com/project/katono/cppelib/branch/master"></a> <a href="https://coveralls.io/github/katono/cppelib?branch=master"></a></p>
-<h2>Description</h2>
-<p>CppELib provides these mechanisms:</p>
-<ul>
-<li><p class="startli"><a class="el" href="namespaceAssertion.html">Assertion</a></p>
-<p class="startli">This is used instead of standard <code>assert()</code> macro. If an assertion fails, it throws C++ exception. If this exception is thrown, you must do shutdown your application safely. There are two assertion macros. One is always enabled, another is enabled only when <code>NDEBUG</code> macro is not defined.</p>
-</li>
-<li><p class="startli"><a class="el" href="namespaceContainer.html">Container</a></p>
-<p class="startli">STL-like containers without dynamic memory allocation: fixed capacity vector, fixed capacity deque, intrusive list, etc.</p>
-</li>
-<li><p class="startli"><a class="el" href="namespaceOSWrapper.html" title="OSWrapper provides abstract C++ interface of common RTOS: thread, mutex, event flag, message queue, memory pool, etc. ">OSWrapper</a></p>
-<p class="startli">If you use a vendor's real-time operating system (RTOS), perhaps you can't use common class library like <code>std::thread</code>. <a class="el" href="namespaceOSWrapper.html" title="OSWrapper provides abstract C++ interface of common RTOS: thread, mutex, event flag, message queue, memory pool, etc. ">OSWrapper</a> provides abstract C++ interface of common RTOS: thread, mutex, event flag, message queue, memory pool, etc. This makes your application more portable and testable. And you can get a simulation environment for debug or test of your application on your host machine without the target board too (but real-time property may not be guaranteed). If the source files for your OS platform are not prepared in <code>platform</code> directory, you need to implement concrete classes of OS API wrapper. These concrete classes are only used for Dependency Injection as the application is initialized.</p>
-</li>
-</ul>
-<h2>Repository</h2>
-<p>You can get the latest version from here.</p>
-<p><a href="https://github.com/katono/cppelib">https://github.com/katono/cppelib</a></p>
-<h2>Requirements</h2>
-<ul>
-<li><code>mechanism</code>: C++98 or later (freestanding)</li>
-<li><code>platform</code> of Windows and POSIX: C++11 or later</li>
-<li>C++ Exception enabled</li>
-</ul>
-<h2>Installation</h2>
-<p>Add source and header files to your application source tree and add <code>mechanism</code> and <code>platform</code> directories to the include path.</p>
-<h2>Test</h2>
-<p>Tests of CppELib use <a href="http://cpputest.github.io/">CppUTest</a> because this testing framework is portable. Tests can be run on multi-platform: Visual Studio, g++, and your target platform.</p>
-<h2>License</h2>
-<p>MIT License </p>
-</div></div><!-- contents -->
+<div class="textblock"><code>#include &quot;<a class="el" href="ThreadPool_8h_source.html">ThreadPool.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="MessageQueue_8h_source.html">MessageQueue.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="EventFlag_8h_source.html">EventFlag.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="FixedMemoryPool_8h_source.html">FixedMemoryPool.h</a>&quot;</code><br />
+</div><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceOSWrapper"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceOSWrapper.html">OSWrapper</a></td></tr>
+<tr class="memdesc:namespaceOSWrapper"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceOSWrapper.html" title="OSWrapper provides abstract C++ interface of common RTOS: thread, mutex, event flag, message queue, memory pool, etc. ">OSWrapper</a> provides abstract C++ interface of common RTOS: thread, mutex, event flag, message queue, memory pool, etc. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
+    <li class="navelem"><a class="el" href="dir_74930709ccc7ffe7cdf82132982f368a.html">mechanism</a></li><li class="navelem"><a class="el" href="dir_f07fac83437f8b18516f0b1313026da3.html">OSWrapper</a></li><li class="navelem"><a class="el" href="ThreadPool_8cpp.html">ThreadPool.cpp</a></li>
     <li class="footer">Generated by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.11 </li>

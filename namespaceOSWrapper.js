@@ -15,6 +15,7 @@ var namespaceOSWrapper =
     [ "Runnable", "classOSWrapper_1_1Runnable.html", "classOSWrapper_1_1Runnable" ],
     [ "Thread", "classOSWrapper_1_1Thread.html", "classOSWrapper_1_1Thread" ],
     [ "ThreadFactory", "classOSWrapper_1_1ThreadFactory.html", "classOSWrapper_1_1ThreadFactory" ],
+    [ "ThreadPool", "classOSWrapper_1_1ThreadPool.html", "classOSWrapper_1_1ThreadPool" ],
     [ "Timeout", "classOSWrapper_1_1Timeout.html", "classOSWrapper_1_1Timeout" ],
     [ "VariableMemoryPool", "classOSWrapper_1_1VariableMemoryPool.html", "classOSWrapper_1_1VariableMemoryPool" ],
     [ "VariableMemoryPoolFactory", "classOSWrapper_1_1VariableMemoryPoolFactory.html", "classOSWrapper_1_1VariableMemoryPoolFactory" ]
