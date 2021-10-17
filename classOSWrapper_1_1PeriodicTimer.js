@@ -5,7 +5,7 @@ var classOSWrapper_1_1PeriodicTimer =
     [ "~PeriodicTimer", "classOSWrapper_1_1PeriodicTimer.html#a8a6b01242a788aa63af106d8d186a5dc", null ],
     [ "getName", "classOSWrapper_1_1PeriodicTimer.html#aab69eb82238bf7bc799b6f3f914d34ae", null ],
     [ "getPeriodInMillis", "classOSWrapper_1_1PeriodicTimer.html#a7eb827daf03530daa58c1a07fc810f56", null ],
-    [ "getUncaughtExceptionHandler", "classOSWrapper_1_1PeriodicTimer.html#a495c4dfb5ec1954e275b7d6243462444", null ],
+    [ "getUncaughtExceptionHandler", "classOSWrapper_1_1PeriodicTimer.html#a37b12c6bfe2fe3fa32900127ff2ab3c1", null ],
     [ "isStarted", "classOSWrapper_1_1PeriodicTimer.html#a3570e87c512c0a2bac1f8a3793937a18", null ],
     [ "setName", "classOSWrapper_1_1PeriodicTimer.html#af80076b1933504df3b6df512cea02932", null ],
     [ "setUncaughtExceptionHandler", "classOSWrapper_1_1PeriodicTimer.html#ae26d49d25706ff3526986013e19bd1fd", null ],

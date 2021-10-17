@@ -1,7 +1,7 @@
 var classOSWrapper_1_1MessageQueue =
 [
-    [ "getMaxSize", "classOSWrapper_1_1MessageQueue.html#aaa0694e91e9d2bbd15c0f6d985b77009", null ],
-    [ "getSize", "classOSWrapper_1_1MessageQueue.html#ad2b0b6c6a38b07aba51262aec15c24e2", null ],
+    [ "getMaxSize", "classOSWrapper_1_1MessageQueue.html#ad346ebb8df7e65086d415816dfdc12da", null ],
+    [ "getSize", "classOSWrapper_1_1MessageQueue.html#a46ee5a8c242a27a0dd4ef54488a0d124", null ],
     [ "receive", "classOSWrapper_1_1MessageQueue.html#af1397c60e9b4d9e8794e2c51af6105b1", null ],
     [ "send", "classOSWrapper_1_1MessageQueue.html#a73a1dbb06cfc20908b588c8287250279", null ],
     [ "timedReceive", "classOSWrapper_1_1MessageQueue.html#a837397edd44339dafd2db48fda1000a6", null ],

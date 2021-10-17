@@ -1,4 +1,4 @@
-var namespaces =
+var namespaces_dup =
 [
     [ "Assertion", "namespaceAssertion.html", null ],
     [ "Container", "namespaceContainer.html", null ],

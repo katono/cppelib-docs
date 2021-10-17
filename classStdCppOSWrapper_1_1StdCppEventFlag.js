@@ -2,7 +2,7 @@ var classStdCppOSWrapper_1_1StdCppEventFlag =
 [
     [ "StdCppEventFlag", "classStdCppOSWrapper_1_1StdCppEventFlag.html#ad6143027a383bc3ad74bcc7cb2db95b0", null ],
     [ "~StdCppEventFlag", "classStdCppOSWrapper_1_1StdCppEventFlag.html#ac57fab5a69932b65aeead042bca80fdf", null ],
-    [ "getCurrentPattern", "classStdCppOSWrapper_1_1StdCppEventFlag.html#a9bb5ad289051125fabe9fd01d26113a3", null ],
+    [ "getCurrentPattern", "classStdCppOSWrapper_1_1StdCppEventFlag.html#a4cbf2101bae9a80cbc57006a15dd0345", null ],
     [ "reset", "classStdCppOSWrapper_1_1StdCppEventFlag.html#adf88951a62f5746ac8b191a0b86c09f6", null ],
     [ "resetAll", "classStdCppOSWrapper_1_1StdCppEventFlag.html#af5891122dfb462db28383b0897a08db6", null ],
     [ "resetOne", "classStdCppOSWrapper_1_1StdCppEventFlag.html#a61c5ff3408d54afafc6ac3fe4698981c", null ],

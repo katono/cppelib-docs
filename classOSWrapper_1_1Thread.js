@@ -8,7 +8,7 @@ var classOSWrapper_1_1Thread =
     [ "getNativeHandle", "classOSWrapper_1_1Thread.html#ab81b12067946c47aa90e41918c15e781", null ],
     [ "getPriority", "classOSWrapper_1_1Thread.html#a50ae7d70a6d2fc2bc1a5d6a39879b8e9", null ],
     [ "getStackSize", "classOSWrapper_1_1Thread.html#a7624da77a0ede717ec5fe68951a5d1f3", null ],
-    [ "getUncaughtExceptionHandler", "classOSWrapper_1_1Thread.html#a8ed1cdb0aa1bca2c66fbf4e9866294e1", null ],
+    [ "getUncaughtExceptionHandler", "classOSWrapper_1_1Thread.html#a2a44c5804d9f94cac2f6a1ce2452227e", null ],
     [ "isFinished", "classOSWrapper_1_1Thread.html#a00c1e9825f3b21269fa2233e41a10849", null ],
     [ "setName", "classOSWrapper_1_1Thread.html#a9c1b1af502246e3908db44142bb474ae", null ],
     [ "setPriority", "classOSWrapper_1_1Thread.html#adbd9ac574f1957abebef84887833b04b", null ],
