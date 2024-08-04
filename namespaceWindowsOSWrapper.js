@@ -8,5 +8,6 @@ var namespaceWindowsOSWrapper =
     [ "WindowsPeriodicTimer", "classWindowsOSWrapper_1_1WindowsPeriodicTimer.html", "classWindowsOSWrapper_1_1WindowsPeriodicTimer" ],
     [ "WindowsPeriodicTimerFactory", "classWindowsOSWrapper_1_1WindowsPeriodicTimerFactory.html", "classWindowsOSWrapper_1_1WindowsPeriodicTimerFactory" ],
     [ "WindowsThreadFactory", "classWindowsOSWrapper_1_1WindowsThreadFactory.html", "classWindowsOSWrapper_1_1WindowsThreadFactory" ],
-    [ "WindowsVariableMemoryPoolFactory", "classWindowsOSWrapper_1_1WindowsVariableMemoryPoolFactory.html", null ]
+    [ "WindowsVariableMemoryPoolFactory", "classWindowsOSWrapper_1_1WindowsVariableMemoryPoolFactory.html", null ],
+    [ "init", "namespaceWindowsOSWrapper.html#a2c1407f5225373baf98fa9445e8af0c1", null ]
 ];

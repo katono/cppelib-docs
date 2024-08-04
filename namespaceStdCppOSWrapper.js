@@ -12,5 +12,6 @@ var namespaceStdCppOSWrapper =
     [ "StdCppPeriodicTimerFactory", "classStdCppOSWrapper_1_1StdCppPeriodicTimerFactory.html", "classStdCppOSWrapper_1_1StdCppPeriodicTimerFactory" ],
     [ "StdCppThreadFactory", "classStdCppOSWrapper_1_1StdCppThreadFactory.html", "classStdCppOSWrapper_1_1StdCppThreadFactory" ],
     [ "StdCppVariableMemoryPool", "classStdCppOSWrapper_1_1StdCppVariableMemoryPool.html", "classStdCppOSWrapper_1_1StdCppVariableMemoryPool" ],
-    [ "StdCppVariableMemoryPoolFactory", "classStdCppOSWrapper_1_1StdCppVariableMemoryPoolFactory.html", "classStdCppOSWrapper_1_1StdCppVariableMemoryPoolFactory" ]
+    [ "StdCppVariableMemoryPoolFactory", "classStdCppOSWrapper_1_1StdCppVariableMemoryPoolFactory.html", "classStdCppOSWrapper_1_1StdCppVariableMemoryPoolFactory" ],
+    [ "init", "namespaceStdCppOSWrapper.html#a62cc72711fb3ae3ab6c3b6f0a0467d9d", null ]
 ];

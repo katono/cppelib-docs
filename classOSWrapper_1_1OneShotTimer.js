@@ -3,7 +3,7 @@ var classOSWrapper_1_1OneShotTimer =
     [ "UncaughtExceptionHandler", "classOSWrapper_1_1OneShotTimer_1_1UncaughtExceptionHandler.html", "classOSWrapper_1_1OneShotTimer_1_1UncaughtExceptionHandler" ],
     [ "OneShotTimer", "classOSWrapper_1_1OneShotTimer.html#a57adf9122288f1f7c597b312d12fe47c", null ],
     [ "~OneShotTimer", "classOSWrapper_1_1OneShotTimer.html#a8425d25df2f4d34b45ff9a204323baeb", null ],
-    [ "getName", "classOSWrapper_1_1OneShotTimer.html#a8f7f7e4adc8c3d93901938e117770fc0", null ],
+    [ "getName", "classOSWrapper_1_1OneShotTimer.html#af114db7d4f8a37bdbda10a61eb9c7328", null ],
     [ "getUncaughtExceptionHandler", "classOSWrapper_1_1OneShotTimer.html#a52018bea2b7a2b085b50c5fe73d1b58d", null ],
     [ "isStarted", "classOSWrapper_1_1OneShotTimer.html#ab0a4dfb0e82f94528ede062e175075f2", null ],
     [ "setName", "classOSWrapper_1_1OneShotTimer.html#aca5974e3231f57737a4f4a3a7e6496ae", null ],

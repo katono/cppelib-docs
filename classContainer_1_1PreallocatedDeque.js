@@ -1,6 +1,8 @@
 var classContainer_1_1PreallocatedDeque =
 [
     [ "const_iterator", "classContainer_1_1PreallocatedDeque.html#a10d2fae1379e120939cac7481327ae5a", null ],
+    [ "const_pointer", "classContainer_1_1PreallocatedDeque.html#a33d178843b7d403dbfa29ea35db23d10", null ],
+    [ "const_reference", "classContainer_1_1PreallocatedDeque.html#a0f568ac18c8e27b22df1720849a8313b", null ],
     [ "const_reverse_iterator", "classContainer_1_1PreallocatedDeque.html#a64e5cf5531f200245033d9a0278f7aba", null ],
     [ "difference_type", "classContainer_1_1PreallocatedDeque.html#a5e35040320c67cfdc858c3cecf1809be", null ],
     [ "iterator", "classContainer_1_1PreallocatedDeque.html#a7a846f0d76d9970b34eb5c37fb168a15", null ],
@@ -35,7 +37,7 @@ var classContainer_1_1PreallocatedDeque =
     [ "insert", "classContainer_1_1PreallocatedDeque.html#a3f0384d4b9171d578a74847cde167018", null ],
     [ "insert", "classContainer_1_1PreallocatedDeque.html#ae3f4613c2c9ea41f9f752a80d7355339", null ],
     [ "max_size", "classContainer_1_1PreallocatedDeque.html#a738cc59247a25c1a422ba315a8e707e9", null ],
-    [ "operator=", "classContainer_1_1PreallocatedDeque.html#a71477d9d3e3b66e96909e83c4707340e", null ],
+    [ "operator=", "classContainer_1_1PreallocatedDeque.html#a39ce01098e926996b4b8d59e85125237", null ],
     [ "operator[]", "classContainer_1_1PreallocatedDeque.html#ae562f4f860316591172c80ba12092c1e", null ],
     [ "operator[]", "classContainer_1_1PreallocatedDeque.html#a8c2f7ea816d4e3164885ca74ff5f10cb", null ],
     [ "pop_back", "classContainer_1_1PreallocatedDeque.html#a78e259024862c89c1702efbdf57569a9", null ],
@@ -49,7 +51,5 @@ var classContainer_1_1PreallocatedDeque =
     [ "resize", "classContainer_1_1PreallocatedDeque.html#a305e6637817a8ac6664b0c52c7cb345d", null ],
     [ "size", "classContainer_1_1PreallocatedDeque.html#ab131f346c22cf9a8e4e46e52e3301611", null ],
     [ "operator==", "classContainer_1_1PreallocatedDeque.html#a55cd69cdb49f3b7da44b4cc9894c0273", null ],
-    [ "PreallocatedDeque_iterator", "classContainer_1_1PreallocatedDeque.html#a34aded6b48a138e768f420fbbc8fddd3", null ],
-    [ "const_pointer", "classContainer_1_1PreallocatedDeque.html#acc76ebe07878ce27ef602ee4bff7fc8b", null ],
-    [ "const_reference", "classContainer_1_1PreallocatedDeque.html#a7d7f481d6f04c2b7c97544ce109988a6", null ]
+    [ "PreallocatedDeque_iterator", "classContainer_1_1PreallocatedDeque.html#a34aded6b48a138e768f420fbbc8fddd3", null ]
 ];

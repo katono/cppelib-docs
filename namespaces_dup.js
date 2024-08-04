@@ -1,9 +1,10 @@
 var namespaces_dup =
 [
-    [ "Assertion", "namespaceAssertion.html", null ],
-    [ "Container", "namespaceContainer.html", null ],
-    [ "OSWrapper", "namespaceOSWrapper.html", null ],
-    [ "PosixOSWrapper", "namespacePosixOSWrapper.html", null ],
-    [ "StdCppOSWrapper", "namespaceStdCppOSWrapper.html", null ],
-    [ "WindowsOSWrapper", "namespaceWindowsOSWrapper.html", null ]
+    [ "Assertion", "namespaceAssertion.html", "namespaceAssertion" ],
+    [ "Container", "namespaceContainer.html", "namespaceContainer" ],
+    [ "OSWrapper", "namespaceOSWrapper.html", "namespaceOSWrapper" ],
+    [ "PosixOSWrapper", "namespacePosixOSWrapper.html", "namespacePosixOSWrapper" ],
+    [ "StdCppOSWrapper", "namespaceStdCppOSWrapper.html", "namespaceStdCppOSWrapper" ],
+    [ "TestDoubleOSWrapper", "namespaceTestDoubleOSWrapper.html", "namespaceTestDoubleOSWrapper" ],
+    [ "WindowsOSWrapper", "namespaceWindowsOSWrapper.html", "namespaceWindowsOSWrapper" ]
 ];

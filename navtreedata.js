@@ -1,28 +1,31 @@
 /*
-@licstart  The following is the entire license notice for the
-JavaScript code in this file.
+ @licstart  The following is the entire license notice for the JavaScript code in this file.
 
-Copyright (C) 1997-2019 by Dimitri van Heesch
+ The MIT License (MIT)
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of version 2 of the GNU General Public License as published by
-the Free Software Foundation
+ Copyright (C) 1997-2020 by Dimitri van Heesch
 
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
-GNU General Public License for more details.
+ Permission is hereby granted, free of charge, to any person obtaining a copy of this software
+ and associated documentation files (the "Software"), to deal in the Software without restriction,
+ including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
 
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ The above copyright notice and this permission notice shall be included in all copies or
+ substantial portions of the Software.
 
-@licend  The above is the entire license notice
-for the JavaScript code in this file
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+ BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+ DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+ @licend  The above is the entire license notice for the JavaScript code in this file
 */
 var NAVTREE =
 [
   [ "CppELib", "index.html", [
+    [ "Changelog", "md_CHANGELOG.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -43,7 +46,7 @@ var NAVTREE =
         [ "Typedefs", "functions_type.html", null ],
         [ "Enumerations", "functions_enum.html", null ],
         [ "Enumerator", "functions_eval.html", null ],
-        [ "Related Functions", "functions_rela.html", null ]
+        [ "Related Symbols", "functions_rela.html", null ]
       ] ]
     ] ],
     [ "Files", "files.html", [
@@ -59,9 +62,13 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 "Array_8h.html",
-"classContainer_1_1FixedDeque__iterator.html#a2257282c21a56c2a9e74755d011bf096",
-"classContainer_1_1PreallocatedVector.html#a305f734c7336db5554a6a8646b7abaa1",
-"classStdCppOSWrapper_1_1StdCppOneShotTimer.html#a3b607f44c02fc38b24d1d86441a13e91"
+"classContainer_1_1FixedDeque.html#a0e0a0fff049862af643690a4c310cd15",
+"classContainer_1_1FixedVector.html#ad67eb8b57cba96a7fca6640fc78f605d",
+"classContainer_1_1PreallocatedDeque.html#ad915aaf975615e5722df34edfa7aba95",
+"classOSWrapper_1_1FixedMemoryPoolFactory.html#a1e7b9da9d5a7cc50a927b027ca5eab8e",
+"classOSWrapper_1_1VariableMemoryPoolFactory.html#a58213e52f60a37aebc4c90921664d6fe",
+"classTestDoubleOSWrapper_1_1TestDoubleEventFlag.html#a8d989a8f7b735ce439f2d600422758e5",
+"classTestDoubleOSWrapper_1_1TestDoubleVariableMemoryPoolFactory.html#af9380be1f3370e25fe339afdbfaacd9b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

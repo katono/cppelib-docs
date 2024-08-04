@@ -1,9 +1,4 @@
 var searchData=
 [
-  ['m_5finitialpriority_724',['m_initialPriority',['../classStdCppOSWrapper_1_1StdCppThreadFactory_1_1StdCppThread.html#ae975483a47291cba001072d3fa3b1515',1,'StdCppOSWrapper::StdCppThreadFactory::StdCppThread']]],
-  ['m_5fmutex_725',['m_mutex',['../classStdCppOSWrapper_1_1StdCppThreadFactory_1_1StdCppThread.html#a0c534422a8c54fc1d080c3af5f3e33f7',1,'StdCppOSWrapper::StdCppThreadFactory::StdCppThread']]],
-  ['m_5fname_726',['m_name',['../classStdCppOSWrapper_1_1StdCppThreadFactory_1_1StdCppThread.html#a250b6df958e53a2dda748e37a285d7e7',1,'StdCppOSWrapper::StdCppThreadFactory::StdCppThread']]],
-  ['m_5fpriority_727',['m_priority',['../classStdCppOSWrapper_1_1StdCppThreadFactory_1_1StdCppThread.html#a97f89ecb0a8b9c4444f503907ea9d7ac',1,'StdCppOSWrapper::StdCppThreadFactory::StdCppThread']]],
-  ['m_5fstacksize_728',['m_stackSize',['../classStdCppOSWrapper_1_1StdCppThreadFactory_1_1StdCppThread.html#a35778e3f10b39f08fc8c8d767f0b2043',1,'StdCppOSWrapper::StdCppThreadFactory::StdCppThread']]],
-  ['m_5fthread_729',['m_thread',['../classStdCppOSWrapper_1_1StdCppThreadFactory_1_1StdCppThread.html#a99f936323504007e6442e0778f5c7591',1,'StdCppOSWrapper::StdCppThreadFactory::StdCppThread']]]
+  ['polling_0',['POLLING',['../classOSWrapper_1_1Timeout.html#a782f33919fad883b30bcaacb16f40aa8',1,'OSWrapper::Timeout']]]
 ];

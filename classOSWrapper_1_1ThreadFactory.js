@@ -1,9 +1,9 @@
 var classOSWrapper_1_1ThreadFactory =
 [
     [ "~ThreadFactory", "classOSWrapper_1_1ThreadFactory.html#adbc6e710af4789d8d1dabe471679e86a", null ],
-    [ "create", "classOSWrapper_1_1ThreadFactory.html#ae4788176ec1bb3d6a6fde821858d8244", null ],
+    [ "create", "classOSWrapper_1_1ThreadFactory.html#a9b7c982423caed6a2bacf4d45d1e21e6", null ],
     [ "destroy", "classOSWrapper_1_1ThreadFactory.html#a9b03374117b580af8b7ff0fd951595e3", null ],
-    [ "getCurrentThread", "classOSWrapper_1_1ThreadFactory.html#a94f3fb3a20ffbb8048c1427d0c2c1983", null ],
+    [ "getCurrentThread", "classOSWrapper_1_1ThreadFactory.html#aff8c005ed0b9f3a0b1d40dcf113cf8a0", null ],
     [ "getHighestPriority", "classOSWrapper_1_1ThreadFactory.html#a7fd9d4a446616eef27045be81dfd09be", null ],
     [ "getLowestPriority", "classOSWrapper_1_1ThreadFactory.html#a18c3038920a91a0edc766d40ad6be272", null ],
     [ "getMaxPriority", "classOSWrapper_1_1ThreadFactory.html#aa8869c448ea935f7429474ecbb80c112", null ],

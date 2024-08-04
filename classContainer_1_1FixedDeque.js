@@ -1,6 +1,8 @@
 var classContainer_1_1FixedDeque =
 [
     [ "const_iterator", "classContainer_1_1FixedDeque.html#ac2bbac8566eb69c229417e80d208c132", null ],
+    [ "const_pointer", "classContainer_1_1FixedDeque.html#a221b4c9f2cd748dffb6e8f67eea995f2", null ],
+    [ "const_reference", "classContainer_1_1FixedDeque.html#af69639765f3f8d998121f1a9e9355f8e", null ],
     [ "const_reverse_iterator", "classContainer_1_1FixedDeque.html#a4d28355dbb6c862dd1315bba2acf635a", null ],
     [ "difference_type", "classContainer_1_1FixedDeque.html#a87a61945bbd0074bcddeed41823ad62b", null ],
     [ "iterator", "classContainer_1_1FixedDeque.html#a874be9554f42b4d98889d4e586b8f9fb", null ],
@@ -36,7 +38,7 @@ var classContainer_1_1FixedDeque =
     [ "insert", "classContainer_1_1FixedDeque.html#a0274258131b9e255ee35ce6ed44fc316", null ],
     [ "insert", "classContainer_1_1FixedDeque.html#a25b6cdc8cd31f808d6c96cdcfbea32f6", null ],
     [ "max_size", "classContainer_1_1FixedDeque.html#a0e0a0fff049862af643690a4c310cd15", null ],
-    [ "operator=", "classContainer_1_1FixedDeque.html#a26eb74f811fb23fa55e1954074f1253b", null ],
+    [ "operator=", "classContainer_1_1FixedDeque.html#a6cc9c3a3aafe862cbccc479b43c6bed2", null ],
     [ "operator[]", "classContainer_1_1FixedDeque.html#a72380b8717fea4d084f5b37470b44f9d", null ],
     [ "operator[]", "classContainer_1_1FixedDeque.html#a185d998e9981c733fc30e658fccffae6", null ],
     [ "pop_back", "classContainer_1_1FixedDeque.html#af4859053f8677261b6c12838f6b41d60", null ],
@@ -50,7 +52,5 @@ var classContainer_1_1FixedDeque =
     [ "resize", "classContainer_1_1FixedDeque.html#aeef938d9c516409a0dbc9856d4c8b01c", null ],
     [ "size", "classContainer_1_1FixedDeque.html#af3b7a0f467f72b67d65a338ed15f4590", null ],
     [ "FixedDeque_iterator", "classContainer_1_1FixedDeque.html#aa5d03e901bdb28be50787a21b0e28e49", null ],
-    [ "operator==", "classContainer_1_1FixedDeque.html#ae0fa460af3476afa376e904fa0e78d3d", null ],
-    [ "const_pointer", "classContainer_1_1FixedDeque.html#a7e4a93debf60f975029cd0975e0f5180", null ],
-    [ "const_reference", "classContainer_1_1FixedDeque.html#ab4f2bdba98be48276e25d6987499e58f", null ]
+    [ "operator==", "classContainer_1_1FixedDeque.html#ae0fa460af3476afa376e904fa0e78d3d", null ]
 ];

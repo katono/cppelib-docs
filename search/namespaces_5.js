@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['windowsoswrapper_430',['WindowsOSWrapper',['../namespaceWindowsOSWrapper.html',1,'']]]
+  ['testdoubleoswrapper_0',['TestDoubleOSWrapper',['../namespaceTestDoubleOSWrapper.html',1,'']]]
 ];

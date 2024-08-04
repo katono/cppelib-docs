@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['forever_722',['FOREVER',['../classOSWrapper_1_1Timeout.html#a5f0e093fc72a41c2b92c14b86b68c1d3',1,'OSWrapper::Timeout']]]
+  ['inherit_5fpriority_0',['INHERIT_PRIORITY',['../classOSWrapper_1_1Thread.html#a4cad00fd7ebbf9e2aeb40c5b761786e3',1,'OSWrapper::Thread']]]
 ];

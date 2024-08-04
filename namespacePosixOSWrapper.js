@@ -6,5 +6,6 @@ var namespacePosixOSWrapper =
     [ "PosixOneShotTimerFactory", "classPosixOSWrapper_1_1PosixOneShotTimerFactory.html", null ],
     [ "PosixPeriodicTimerFactory", "classPosixOSWrapper_1_1PosixPeriodicTimerFactory.html", null ],
     [ "PosixThreadFactory", "classPosixOSWrapper_1_1PosixThreadFactory.html", null ],
-    [ "PosixVariableMemoryPoolFactory", "classPosixOSWrapper_1_1PosixVariableMemoryPoolFactory.html", null ]
+    [ "PosixVariableMemoryPoolFactory", "classPosixOSWrapper_1_1PosixVariableMemoryPoolFactory.html", null ],
+    [ "init", "namespacePosixOSWrapper.html#a48b8fdb7d9792f9f8a14b170926ff24f", null ]
 ];
