@@ -35,6 +35,7 @@ var hierarchy =
     ] ],
     [ "Container::FixedVector< T, MaxSize >", "classContainer_1_1FixedVector.html", null ],
     [ "Container::IntrusiveList< T >", "classContainer_1_1IntrusiveList.html", null ],
+    [ "Container::IntrusiveList< MemoryNode >", "classContainer_1_1IntrusiveList.html", null ],
     [ "Container::IntrusiveList_iterator< T, Ref, Ptr, IntrusiveListNodePtr >", "classContainer_1_1IntrusiveList__iterator.html", null ],
     [ "Container::IntrusiveListNode", "classContainer_1_1IntrusiveListNode.html", null ],
     [ "OSWrapper::LockGuard", "classOSWrapper_1_1LockGuard.html", null ],

@@ -26,6 +26,7 @@ var NAVTREE =
 [
   [ "CppELib", "index.html", [
     [ "Changelog", "md_CHANGELOG.html", null ],
+    [ "Deprecated List", "deprecated.html", null ],
     [ "Namespaces", "namespaces.html", [
       [ "Namespace List", "namespaces.html", "namespaces_dup" ],
       [ "Namespace Members", "namespacemembers.html", [
@@ -65,10 +66,11 @@ var NAVTREEINDEX =
 "classContainer_1_1FixedDeque.html#a0e0a0fff049862af643690a4c310cd15",
 "classContainer_1_1FixedVector.html#ad67eb8b57cba96a7fca6640fc78f605d",
 "classContainer_1_1PreallocatedDeque.html#ad915aaf975615e5722df34edfa7aba95",
-"classOSWrapper_1_1FixedMemoryPoolFactory.html#a1e7b9da9d5a7cc50a927b027ca5eab8e",
-"classOSWrapper_1_1VariableMemoryPoolFactory.html#a58213e52f60a37aebc4c90921664d6fe",
-"classTestDoubleOSWrapper_1_1TestDoubleEventFlag.html#a8d989a8f7b735ce439f2d600422758e5",
-"classTestDoubleOSWrapper_1_1TestDoubleVariableMemoryPoolFactory.html#af9380be1f3370e25fe339afdbfaacd9b"
+"classOSWrapper_1_1FixedMemoryPool.html#a9721e6eeb84779d219f9e7d48d93b938",
+"classOSWrapper_1_1VariableMemoryPool.html",
+"classTestDoubleOSWrapper_1_1TestDoubleEventFlag.html#a3771db78946ba37363d09aa81172ff61",
+"classTestDoubleOSWrapper_1_1TestDoubleVariableMemoryPool.html#a8c7d112c899de0a79e3cc6660517b9c8",
+"structContainer_1_1Array.html#ad81f81f238fbbc479cf691925091752b"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

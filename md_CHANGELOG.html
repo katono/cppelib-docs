@@ -25,7 +25,7 @@
  <tbody>
  <tr id="projectrow">
   <td id="projectalign">
-   <div id="projectname">CppELib<span id="projectnumber">&#160;1.6.0</span>
+   <div id="projectname">CppELib<span id="projectnumber">&#160;1.7.0</span>
    </div>
   </td>
  </tr>
@@ -94,11 +94,21 @@ $(document).ready(function(){initNavTree('md_CHANGELOG.html',''); initResizable(
 <div class="contents">
 <div class="textblock"><p>All notable changes to this project will be documented in this file.</p>
 <p>The format is based on <a href="https://keepachangelog.com/en/1.1.0/">Keep a Changelog</a>, and this project adheres to <a href="https://semver.org/spec/v2.0.0.html">Semantic Versioning</a>.</p>
-<h1><a href="https://github.com/katono/cppelib/compare/1.6.0...HEAD">Unreleased</a></h1>
+<h1><a href="https://github.com/katono/cppelib/compare/1.6.0...1.7.0">1.7.0</a> - 2025-01-04</h1>
 <h2>Added</h2>
 <ul>
-<li>Added methods in <code>FixedMemoryPool</code> to block until allocated memory</li>
-<li>Added methods in <code>VariableMemoryPool</code> to block until allocated memory</li>
+<li>Added methods in <code><a class="el" href="classOSWrapper_1_1FixedMemoryPool.html" title="Abstract class that has functions of common RTOS&#39;s fixed-size memory pool.">OSWrapper::FixedMemoryPool</a></code><ul>
+<li><a class="el" href="classOSWrapper_1_1FixedMemoryPool.html#a752e903fabd05c810d3faa9dbe4b0829" title="Block the current thread until a memory block is allocated from this FixedMemoryPool.">OSWrapper::FixedMemoryPool::allocateMemory</a></li>
+<li><a class="el" href="classOSWrapper_1_1FixedMemoryPool.html#ae0ae16f7acb9f15db1bb5dc483ab3937" title="Try to allocate a memory block from this FixedMemoryPool without blocking.">OSWrapper::FixedMemoryPool::tryAllocateMemory</a></li>
+<li><a class="el" href="classOSWrapper_1_1FixedMemoryPool.html#a12f3ff4986567d3541e3357dc4ebe8e2" title="Block the current thread until a memory block is allocated from this FixedMemoryPool but only within ...">OSWrapper::FixedMemoryPool::timedAllocateMemory</a></li>
+<li><a class="el" href="classOSWrapper_1_1FixedMemoryPool.html#a9721e6eeb84779d219f9e7d48d93b938" title="Get the remaining number of available blocks in this FixedMemoryPool.">OSWrapper::FixedMemoryPool::getNumberOfAvailableBlocks</a></li>
+<li><a class="el" href="classOSWrapper_1_1FixedMemoryPool.html#aa1c012e5792e71a755e0c1553b91e779" title="Get the max number of blocks in this FixedMemoryPool.">OSWrapper::FixedMemoryPool::getMaxNumberOfBlocks</a></li>
+</ul>
+</li>
+</ul>
+<h2>Changed</h2>
+<ul>
+<li>Added cppcheck-suppress comments</li>
 </ul>
 <h1><a href="https://github.com/katono/cppelib/compare/1.5.0...1.6.0">1.6.0</a> - 2024-08-04</h1>
 <h2>Added</h2>
