@@ -218,7 +218,7 @@ Protected Member Functions</h2></td></tr>
 <div class="textblock"><p>Abstract class that has functions of common RTOS's thread. </p>
 <p>This is the state machine diagram of <a class="el" href="classOSWrapper_1_1Thread.html" title="Abstract class that has functions of common RTOS&#39;s thread.">Thread</a>.</p>
 <div class="plantumlgraph">
-<img src="inline_umlgraph_3.png" />
+<img src="inline_umlgraph_2.png" />
 </div>
 <p>When the current thread calls some methods (for example <a class="el" href="classOSWrapper_1_1Thread.html#a1e045acd449959e2d035aa6b094b8089" title="Block the current thread until this thread transits to the FINISHED state.">Thread::wait()</a>, <a class="el" href="classOSWrapper_1_1Mutex.html#a06cd073c5596e755594320bf56fb6fa6" title="Block the current thread until locks this mutex.">Mutex::lock()</a>, <a class="el" href="classOSWrapper_1_1EventFlag.html#ac8742e9301f6bdbdbb9fd0e6acef3a99" title="Block the current thread until the condition is satisfied but only within the limited time.">EventFlag::timedWait()</a>, <a class="el" href="classOSWrapper_1_1Thread.html#a4365a62264f1896c01956b87c0e69644" title="Sleep the current thread while the time that is set by argument.">Thread::sleep()</a>, etc), the state of current thread transits from RUNNING to WAITING. Then the waiting condition is satisfied or timed out, the state transits from WAITING to READY.</p>
 <p>When the current thread runs through the end of <a class="el" href="classOSWrapper_1_1Runnable.html#a74edff480fc1e843498417297ebe7e18" title="Run the active class.">Runnable::run()</a>, the state of current thread transits from RUNNING to FINISHED.</p>

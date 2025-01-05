@@ -44,7 +44,7 @@ note "This is an example of RTOS.\n This item belongs to the most concrete layer
 N2 .. ItronOSWrapper
 note "MutexFactory, EventFlagFactory, etc \n are also the same structure as ThreadFactory." as N3
 @enduml
-@startuml inline_umlgraph_3.png
+@startuml inline_umlgraph_2.png
 title Thread State Transition
 
 [*] -right-> FINISHED : create
